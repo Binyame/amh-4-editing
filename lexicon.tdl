@@ -1,0 +1,10 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;; Nouns
+
+;;; Verbs
+
+;;; Auxiliaries
+
+all := -aux-lex &
+  [ STEM < "all" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_all_v_rel" ].

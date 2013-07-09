@@ -1,0 +1,74 @@
+
+version=27
+
+section=general
+language=Amharic
+iso-code=amh
+punctuation-chars=discard-all
+archive=yes
+email=binyam.ephrem@aau.edu.et
+affiliation=Addis Ababa University
+motivation=Grammar Engineering research for PhD
+vcs=git
+
+section=word-order
+word-order=sov
+has-dets=no
+has-aux=yes
+aux-comp-order=after
+aux-comp=s
+multiple-aux=no
+
+section=number
+
+section=person
+person=1-2-3
+first-person=none
+
+section=gender
+
+section=case
+case-marking=nom-acc
+nom-acc-nom-case-name=Nominative
+nom-acc-acc-case-name=Accusative
+
+section=direct-inverse
+
+section=tense-aspect-mood
+
+section=other-features
+
+section=sentential-negation
+
+section=coordination
+
+section=matrix-yes-no
+
+section=info-str
+
+section=arg-opt
+
+section=lexicon
+  noun1_name=count-noun
+  noun1_det=opt
+  noun2_name=uncountable-noun
+  verb1_name=intransitive-verb-lex
+  verb1_valence=nom
+  verb2_name=trasitive
+  verb2_valence=nom-acc
+  aux1_sem=add-pred
+  aux1_subj=np
+    aux1_compfeature1_name=form
+    aux1_compfeature1_value=nom
+    aux1_stem1_orth=all
+    aux1_stem1_pred=_all_v_rel
+
+section=morphology
+
+section=toolbox-import
+
+section=test-sentences
+
+section=gen-options
+
+section=ToolboxLexicon
